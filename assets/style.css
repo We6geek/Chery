@@ -12,6 +12,9 @@
   font-family: "HelverBl"; /* Гарнитура шрифта */
   src: url(/assets/fonts/helveticaneuecyr_black.otf); /* Путь к файлу со шрифтом */
 }
+.promo{
+  margin-top: 60px;
+}
 body{
   margin: 0;
   padding: 0;
