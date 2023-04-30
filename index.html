@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="Cherry">
+    <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
+    <title>Cherry в г. Тула у официального дилера Cherry</title>
+    <script src="./assets/jquery.min.js"></script>
+    <script src="./assets/jquery.inputmask.bundle.min.js"></script>
+    <link href="./assets/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/style2.css">
+    <link href="./assets/stylemobile.css" rel="stylesheet" type="text/css">
+    <script async="" src="./assets/js"></script>
+    <style>
+        .modal-success {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1000;
+        }
+
+        .modal-success-bg {
+            width: 100%;
+            height: auto;
+            background: #000;
+            opacity: 0.4;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1000
+        }
+
+        .modal-success .modal-body {
+            width: 320px;
+            height: 100px;
+            position: relative;
+            top: calc(50% - 50px);
+            left: calc(50% - 160px);
+            background: white;
+            opacity: 1;
+            z-index: 1001;
+            border-radius: 5px;
+            padding: 15px;
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .modal-body .modal-close {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            background-color: #000;
+            width: 27px;
+            height: 27px;
+            border-radius: 30px;
+            background-image: url(/img/close.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            cursor: pointer;
+            z-index: 1002;
+        }
+        
+        .salon__address {color: #494949;}
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="header_logo">
+            <a href="#"><img src="/img/logo.png" alt="Логотип SsangYong" class="logo-img"></a>
+            <p class="logo-p">Официальный дилерский центр SsangYong<br> Тула, Рязанская 28б</p>
+        </div>
+        <p class="header_number">+7 (4872) 52-89-42</p>
+    </header>
+    <main>
+        <div class="main_h1">
+            <p class="main-p">SsangYong в наличии от 1 069 000 руб. в Туле<br> Большие скидки до конца марта!</h1>
+        </div>
+        <div class="main_popup">
+            <div class="left_popup">
+                <div class="left-text">
+                    <h2>3 первых платежа по кредиту за наш счет</h2>
+                    <p class="p_text-popup">Под 3,5% от 20 банков <br>Без первого взноса</p>
+                    <p class="p-popup">Подробнее</p>
+                </div>
+                <div class="left-img">
+                    <img src="/img/left_img.png">
+                </div>
+            </div>
+            <div class="right_popup">
+                <div class="right-text">
+                    <h2>Trade-In день в день с выгодой 200 000 руб.</h2>
+                    <p class="p_text-popup">Под 3,5% от 20 банков <br>Без первого взноса</p>
+                    <p class="p-popup">Подробнее</p>
+                </div>
+                <div class="right-img">
+                    <img src="/img/right_img.png">
+                    <img src="/img/strch.png" class="strch1">
+                    <img src="/img/strch.png" class="strch2">
+                </div>
+            </div>
+        </div>
+    <div class="main mainshow" style="margin-top: 90px !important;">
+        <div class="chat">
+            <div class="helper">
+                <img src="/img/Olga-helper.png">
+                <div class="helper-text">
+                    <p class="helper-p1">
+                        Глазова Ольга
+                    </p>
+                    <p class="helper-p2">
+                        Онлайн-консультант официального автосалона CHERY
+                    </p>
+                </div>
+            </div>
+            <div class="chatcont"></div>
+        </div>
+        <div class="blocksuccess">
+            <div class="icosuccess"></div>
+            <div class="smshead">Ваша заявка принята!<br> Мы скоро свяжемся с Вами</div>
+            <div class="smsdesc">Через <span class="time_redir">15</span> секунд Вы автоматически перейдете на основной
+                сайт. Для прямого перехода нажмите на кнопку "Перейти на основной сайт"</div>
+            <div class="blockbutton">
+                <a href="#" class="btn_redir">Перейти на основной сайт</a>
+            </div>
+        </div>
+    </div>
+    <div class="promo">
+        <p class="promo_p">
+            Актуальные акции автосалона
+        </p>
+        <div class="promo_container">
+            <div class="grid-item">
+                <img class="pic1" src="/img/Снимок экрана 2023-04-10 132901 3.png">
+                <h2>Резина и КАСКО<br> в подарок!</h2>
+                <p class="p-popup">Подробнее</p>
+            </div>
+            <div class="grid-item">
+                <img class="pic2" src="/img/image 44.png">
+                <h2>Мы предложим<br> лучшую цену из всех!</h2>
+                <p class="p-popup">Подробнее</p>
+            </div>
+            <div class="grid-item">
+                <img class="pic3" src="/img/Снимок экрана 2023-04-10 134138 1.png">
+                <h2>Доп. скидка 10%<br> по гос. программе</h2>
+                <p class="p-popup">Подробнее</p>
+            </div>
+        </div>
+    </div>
+    <div class="popup__thanks-bg">
+        <div class="popup__thanks">
+            <div class="blockpopup__close"></div>
+            <div class="popup__thanks-img icosuccess"></div>
+            <div class="popup__thanks-title smshead">Спасибо!</div>
+            <div class="popup__thanks-desc smsdesc">Ваша заявка принята <br> Мы скоро свяжемся с Вами.</div>
+        </div>
+    </div>
+    <div class="widthwin"></div>
+    <div class="step" data="token"></div>
+    <div class="step" data="auto"></div>
+    <div class="step" data="profit"></div>
+    <div class="step" data="price"></div>
+    <div class="step" data="options"></div>
+    <div class="step" data="term"></div>
+    <div class="step" data="cash"></div>
+    <form style="display:none;" id="only-phone" method="post">
+        <input type="text" name="phone">
+    </form>
+    <form style="display:none;" id="only-data" method="post">
+        <input type="text" name="data">
+    </form>
+    <footer>
+        <p class="footer_p">ООО "AVTOMIR"    ИНН 4630023879    КПП 710001001    ОГРН 1024600942508</p>
+        <a href=""><p class="footer_p-sec">Cоглашение на обработку персональных данных</p></a>
+    </footer>
+    <script type="text/javascript" src="./assets/chat.js"></script>
+    <script type="text/javascript" src="./assets/script1.js"> </script>
+    <!-- <script>
+        setInterval(() => {
+            $('.modal-success').attr('style', `height:${$(document).height() }px`)
+        }, 500)
+    </script> -->
+    <script>
+        $('.modal-success-bg,.modal-close').click(() => {
+            $('.modal-success').hide();
+        })
+    </script>
+</body>
+
+</html>
